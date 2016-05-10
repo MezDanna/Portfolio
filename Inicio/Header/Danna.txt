@@ -1,0 +1,196 @@
+https://www.youtube.com/watch?v=O_Bw1_0u1P8
+(toma similar a seg 0.1-0.3 y seg 0.7-0.11)
+
+otro buen tutorial para fullscreen:
+https://www.youtube.com/watch?v=iOzLGIaW4dw
+**frase powersasa:
+THERE'S NO EXCUSE NOT TO DO WHAT MAKES YOU HAPPY.
+DO WHAT YOU LOVE
+
+
+**code picnic**
+<div class="menu_header_wrapper">
+      <div class="wrapper menu_header clearfix">
+        <div class="section-title" id="course-title">
+          <h1 class="wow2 fadeIn">
+            <a href="https://codepicnic.com">
+              CodePicnic
+            </a>
+          </h1>
+        </div>
+        
+  <nav id="site-nav" class="menu-logged-out">
+  <ul id="menu">
+    <li>
+      <a href="/features">Features</a>
+    </li>
+    <li>
+      <a href="#profiles">Pricing</a>
+    </li>
+    <li>
+      <a href="/use-cases">Use Cases</a>
+    </li>
+    <li>
+      <a href="/blog">Blog</a>
+    </li>
+      <li>
+        <a href="#" class="md-trigger rounded" id="verify-account-link" data-modal="modal-8">Login</a>
+      </li>
+  </ul>
+</nav>
+
+
+      </div>
+    </div>
+--------------------------------
+<div class="align-vertical">
+      <h2 class="fadeInDown wow2">
+        <span class="code_type">Share</span><span class="typed-cursor">|</span>
+        <span class="headline-static">live code in the browser</span>
+      </h2>
+      <p class="explain fadeInUp wow2">
+        The best platform for showcasing code online.
+      </p>
+      <div class="home-actions fadeInRight wow2">
+      <!--<a href="#features" class="simple" id="landing-tell-more">Learn more</a>-->
+<!--         <a href="" class="md-trigger manifest-link" data-modal="modal-13">Try our demo</a> -->
+        <a href="/sign_up?plan=personal" class="md-trigger register" data-modal="modal-9" id="landing-register">Sign up and try us now!</a>
+      </div>
+    </div>
+
+codepicnic.com/media="all"
+html.home-index #header #landing h2, html.home-platform #header #landing h2, html.home-demos #header #landing h2, html.home-for_education #header #landing h2, html.home-for_saas #header #landing h2, html.home-for_training #header #landing h2, html.home-for_business #header #landing h2, html.home-for_developers #header #landing h2, html.home-for_producthunt #header #landing h2, html.home-for_googleio #header #landing h2, html.home-manifesto #header #landing h2 {
+    width: auto;
+    text-align: center;
+    margin-top: 0px;
+    font-family: "ROCK";
+    font-size: 55px;
+}
+
+
+----
+codepicnic.com/media="all"
+html.home-index #header h2, html.home-platform #header h2, html.home-for_business #header h2 {
+    color: #fff;
+    text-align: left;
+    font-size: 60px;
+    text-transform: inherit;
+    font-weight: 300;
+    margin-bottom: 5px;
+    line-height: 67px;
+    font-family: "ROCK";
+    font-size: 74px;
+    -webkit-animation-delay: 0.2s;
+    -moz-animation-delay: 0.2s;
+    -khtml-animation-delay: 0.2s;
+    -ms-animation-delay: 0.2s;
+}
+codepicnic.com/media="all"
+html.home-demos #header h2, html.home-index #header h2 {
+    color: #fff;
+    text-align: left;
+    font-size: 60px;
+    text-transform: inherit;
+    font-weight: 300;
+    margin-bottom: 5px;
+    line-height: 67px;
+    font-family: "ROCK";
+    font-size: 74px;
+    -webkit-animation-delay: 0.2s;
+    -moz-animation-delay: 0.2s;
+    -khtml-animation-delay: 0.2s;
+    -ms-animation-delay: 0.2s;
+}
+codepicnic.com/media="all"
+body header.landing-internal h2 {
+    color: #fff;
+    text-align: left;
+    font-size: 60px;
+    text-transform: inherit;
+    font-weight: 300;
+    margin-bottom: 5px;
+    line-height: 67px;
+    font-family: "ROCK";
+    font-size: 74px;
+    -webkit-animation-delay: 0.2s;
+    -moz-animation-delay: 0.2s;
+    -khtml-animation-delay: 0.2s;
+    -ms-animation-delay: 0.2s;
+}
+----------------------------------------------------------------------------------
+Corregir el codigo con Gian y Raymi:
+body{
+	background: #FFFFFA;
+	font-family: "Roboto", Arial, sans-serif;
+}
+/*comienzo de menu-bar*/
+header{
+	width: 100%;
+}
+header nav{
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+	background: #024959;
+}
+.menu-bar{
+	display: none;
+}
+header nav ul{
+	overflow: hidden;
+	list-style: none;
+}
+header nav ul li{
+	float: left;
+	color: white;
+	padding:20px;
+	display:block;
+	text-decoration: none;
+}
+header nav ul li span{
+	margin-right:10px;
+}
+header nav ul li:hover {
+	background:#037E8C;
+}
+section{
+	padding:20px;
+}
+@media screen and (max-width:700px){
+	header nav{
+		width:70%; /*le puse 70%para que al desplegarse en responsive no me abarque toda la web*/
+		height:100%;
+		left:-100;
+		margin:0;
+		position:fixed;
+	}
+	header nav ul li{
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+	.menu-bar{
+		display:block;
+		width:100%;
+		background:#ccc;
+	}
+	.menu-bar .bt-menu{
+		display:block;
+		padding:20px;
+		background: #024959;
+		color:#fff;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 25px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.menu-bar span{
+		float:right;
+		font-size:45px;
+	}
+}
+
+
+**index
